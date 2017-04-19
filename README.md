@@ -1,8 +1,8 @@
-# encryptedmailserver
+# Encrypted Mail Server 
 This is my very first attempt at developing something of this sort. :D 
 Originally developed as a mini project for Computer Networks, a subject taught in the 6th semester of the B.E degree course in Computer Engg at PCCOE, Pune.
 This is a simple demonstration of a SMTP server that after recieving mail from a client, encrypts it using the AES technique and 
-stores the cipher in its database.
+stores the cipher in its database (SQLITE3 in this case).
 As of now, the functionality for allowing a client to retrieve mail(s) from the server db has not been implemented. However, the plan is
 that once a client request for a mail, it is decrypted using the key and is then displayed. 
 
